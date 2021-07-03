@@ -12,8 +12,8 @@ namespace Slotkin_Q1
 {
     class GravitationalForce
     {
-        public const double G = 667408000000;
-        public double F { get; private set; } //gravitational force in newtons
+        public const double G = 0.0000000000667408;
+        public double F { get; private set; } //gravitational force in newton
         public double M1 { get; set; } //mass of object 1 in kilograms
         public double M2 { get; set; } //mass of object 2 in kilograms
         public double R { get; set; } //distance between M1 and M2 in meters 

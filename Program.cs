@@ -10,12 +10,12 @@ namespace Slotkin_Q1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("\nThis program will calculate the gravitational force between 2 objects given");
+            Console.WriteLine("the mass of each object and the distance between the two.  Let's do this!");
+
             string answer = "y";
             do
             {
-                Console.WriteLine("\nThis program will calculate the gravitational force between 2 objects given");
-                Console.WriteLine("the mass of each object and the distance between the two.  Let's do this!");
-
                 Console.WriteLine("\nPlease enter the mass of the first object in kilograms: ");
                 string massObject1 = Console.ReadLine();
                 double mass1 = Convert.ToDouble(massObject1);     
